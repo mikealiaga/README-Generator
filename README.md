@@ -1,27 +1,36 @@
 
-# mike
+# README Generator
 
 ## Description
-- **Motivation**: none
-- **Why This Project**: school
-- **Problem Solved**: readme gen
-- **What I Learned**: inquirer
+This project consists in a program that prompts questions and generates a README file in automatic. Ideal for creating quality and consisten README files for your projects.
+
+## Link to video tutorial
+[Walkthrough video](https://drive.google.com/drive/folders/12FbjA0odr0boqVGlzofJHGjjr3yaLfer?usp=sharing)
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
-download
+Clone the repository
 
-## Features
-n
+## Usage
+Install the packages required by running npm install, finally run the code with node index.js and answer all the prompts.
 
 ## License
 This project is licensed under the  license.
 
 ## Contributing
-no
+Other developers can contribute by using the Github repo or contacting me
 
-## Contact
-For questions, reach out to [mike](mailto:mike)
+## Tests
+To test the project, clone the repo and run it
 
-## Collaborators
-msmms
+## Questions?
+For questions, reach out to [aliagamike97@gmail.com](mailto:aliagamike97@gmail.com) or browse @mikealiaga on Github
 

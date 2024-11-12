@@ -36,15 +36,15 @@ const questions = [
         message: 'Tell other developers how to contribute:',
         name: 'contribute',
     },
+       {
+        type: 'input',
+        message: 'Write the test instructions',
+        name: 'tests',
+    },
     {
         type: 'input',
         message: 'What is your email?',
         name: 'email',
-    },
-    {
-        type: 'input',
-        message: 'Write the test instructions',
-        name: 'test',
     },
     {
         type: 'input',
@@ -63,6 +63,18 @@ function generateReadme(data) {
 ## Description
 ${data.description}
 
+## Link to video tutorial
+[Walkthrough video](https://drive.google.com/drive/folders/12FbjA0odr0boqVGlzofJHGjjr3yaLfer?usp=sharing)
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
 ## Installation
 ${data.installation}
 
@@ -73,13 +85,13 @@ ${data.usage}
 This project is licensed under the ${data.licence} license.
 
 ## Contributing
-${data.contrubute}
+${data.contribute}
 
-## Collaborators
-${data.test}
+## Tests
+${data.tests}
 
 ## Questions?
-For questions, reach out to [${data.email}](mailto:${data.email} or browse ${data.github} on Github)
+For questions, reach out to [${data.email}](mailto:${data.email}) or browse ${data.github} on Github
 
 `;
 }
